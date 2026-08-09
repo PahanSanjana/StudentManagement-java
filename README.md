@@ -37,3 +37,27 @@ src/
 ├── studentmanagement/ # Main entry point
 └── view/           # Java Swing forms and UI components (.java & .form)
 
+```
+## 📂 Getting Started
+
+Follow the instructions below to set up and run the project locally on your machine.
+
+### Prerequisites
+* Install the Java Development Kit (JDK).
+* Install the Apache NetBeans IDE.
+* Ensure you have your database set up and configured in the `db` package (`DBconnection.java`).
+
+### Installation & Execution
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/pahansanjana/studentmanagement-java.git](https://github.com/pahansanjana/studentmanagement-java.git)
+   ```
+## Open the project in NetBeans:
+* Launch Apache NetBeans.
+* Go to **File > Open Project** and select the cloned `StudentManagement` folder.
+
+## Run the application:
+* Locate the project in the NetBeans Projects panel.
+* Right-click the project folder and select **Run**.
+
+
