@@ -1,55 +1,39 @@
-# StudentManagement-java
-A Java desktop application developed in NetBeans as a university practice assignment to strengthen core programming concepts and application development skills.
+# 🎓 Student Management Java Application
 
-# Java University Practice Project
+A desktop Java application developed in Apache NetBeans as a university practice assignment to strengthen core programming concepts, object-oriented principles, database connectivity, and desktop user interface design.
 
-A desktop application built using **Java** in the **NetBeans IDE** as part of a university coursework assignment. This project demonstrates core programming concepts, object-oriented principles, user authentication, CRUD operations, and an integrated utility tool.
+---
 
 ## 🚀 Features
 
-* **User Authentication:** Secure **Login** and **Signup** system to manage user access.
-* **Data Management (CRUD):** 
-  * **Add Data:** Insert new records seamlessly through the application interface.
-  * **View Data:** Display and browse stored records.
-  * **Edit Data:** Update and modify existing information.
-  * **Delete Data:** Remove unwanted records from the system.
-* **Integrated Calculator:** A built-in calculator feature to perform quick mathematical computations directly within the application.
+* **User Authentication:** Secure **Login** and **Signup** system handled via dedicated controllers and data access objects (DAO) to control application access.
+* **Complete CRUD Operations:** 
+  * **Add Data:** Insert new student records seamlessly through the graphical interface.
+  * **View Data:** Display and browse stored records in real-time.
+  * **Edit Data:** Update and modify existing student information.
+  * **Delete Data:** Remove unwanted records from the database system.
+* **Integrated Calculator:** A built-in calculator utility module to perform quick mathematical computations directly within the application.
+
+---
 
 ## 🛠️ Built With
 
 * **Language:** Java
 * **IDE:** Apache NetBeans
-* **GUI / UI:** Swing / JavaFX (Update if applicable)
-* **Build Tool:** Ant / Maven (Update if applicable)
-
-## 📂 Getting Started
-
-To run this project locally on your machine:
-
-### Prerequisites
-* Install [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/)
-* Install [Apache NetBeans IDE](https://netbeans.apache.org/)
-
-### Installation & Execution
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
-
-   # Project Setup & Usage
-
-## 📂 Open the Project in NetBeans
-1. Launch Apache NetBeans.
-2. Navigate to **File > Open Project** and select the cloned project folder.
-
-## 🚀 Run the Application
-1. Locate the main class or project folder in the NetBeans Projects panel.
-2. Right-click the project and select **Run**.
-
-## 📌 Usage
-* Launch the application to be greeted by the **Login/Signup** screen.
-* Create a new account or log in with existing credentials.
-* Use the dashboard to **Add, View, Edit, or Delete** data as needed.
-* Access the **Calculator** module from the menu for quick calculations.
+* **GUI Framework:** Java Swing
+* **Build Tool:** Apache Ant (`build.xml`)
+* **Architecture:** MVC (Model-View-Controller) with DAO pattern
 
 ---
-*Developed as a university practice assignment.*
+
+## 📂 Project Architecture
+
+```text
+src/
+├── controller/     # Handles business logic and user actions
+├── dao/            # Data Access Objects for database communication
+├── db/             # Database connection and test configurations
+├── model/          # Entity classes (Student, User)
+├── studentmanagement/ # Main entry point
+└── view/           # Java Swing forms and UI components (.java & .form)
+
