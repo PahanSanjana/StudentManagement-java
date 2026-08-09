@@ -61,3 +61,12 @@ Follow the instructions below to set up and run the project locally on your mach
 * Right-click the project folder and select **Run**.
 
 
+## 📌 Usage
+
+* Launch the application to view the **Login / Signup** screen.
+* Create a new user account or log in with existing database credentials.
+* Use the dashboard to **Add, View, Edit, or Delete** student data.
+* Access the **Calculator** module from the menu whenever you need quick calculations.
+
+---
+*Developed as a university practice assignment.*
