@@ -3,7 +3,11 @@
 A desktop Java application developed in Apache NetBeans as a university practice assignment to strengthen core programming concepts, object-oriented principles, database connectivity, and desktop user interface design.
 
 ---
+## 📊 Project Diagram
 
+![Student Management System Diagram](diagram.png)
+
+---
 ## 🚀 Features
 
 * **User Authentication:** Secure **Login** and **Signup** system handled via dedicated controllers and data access objects (DAO) to control application access.
